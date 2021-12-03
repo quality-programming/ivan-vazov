@@ -1,8 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: sans-serif;
   background-image: url(img/bg.png);
   background-size: cover;
   background-attachment: fixed;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
 }
 
 .header-1 {
@@ -13,7 +24,9 @@ body {
 }
 
 .img-letter {
-  position: relative;
+  top: 50px;
+  left: 90px;
+  position: absolute;
 }
 
 h1 {
@@ -21,10 +34,48 @@ h1 {
   font-weight: bold;
   color: #946f3b;
   text-align: center;
+  margin: 30px;
 }
 
 h3 {
   font-size: 22px;
   color: #444;
   text-align: center;
+}
+
+.img-books {
+  margin-top: 80px;
+  margin-left: 290px;
+}
+
+.authors {
+  bottom: 200px;
+  left: 100px;
+  position: absolute;
+  list-style-type: none;
+}
+
+li {
+  font-size: 20px;
+  margin: 10px;
+}
+
+a:link {
+  color: #946f3b;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #946f3b;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline dotted orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
 }
