@@ -4,18 +4,25 @@ body {
   background-color: #c4f0ff;
 }
 
-button {
-  font-size: 25px;
+.btn-wrapper {
   text-align: center;
-  display: block;
-  margin: 30px auto;
-  width: 10%;
-  background-color: #fafafa;
-  cursor: pointer;
 }
 
-button:hover {
+.btn {
+  display: inline-block;
+  padding: 10px 50px;
+  cursor: pointer;
   background-color: #083970;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: #4297f8;
+}
+
+.btn:active {
+  text-decoration: none;
 }
 
 h1 {
