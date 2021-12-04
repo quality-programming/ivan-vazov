@@ -1,0 +1,44 @@
+# Web development
+*.css text diff=css eol=lf
+*.htm text diff=html eol=lf
+*.html text diff=html eol=lf
+*.js text diff=javascript eol=lf
+*.scss text diff=css eol=lf
+
+# Documentation
+*.markdown text diff=markdown eol=lf
+*.md text diff=markdown eol=lf
+
+# Images
+*.apng binary
+*.bmp binary
+*.eps binary
+*.gif binary
+*.ico binary
+*.jfif binary
+*.jpeg binary
+*.jpg binary
+*.png binary
+*.svg binary
+*.tga binary
+*.tif binary
+*.tiff binary
+*.webp binary
+
+# Video
+*.flv binary
+*.mkv binary
+*.mov binary
+*.mp4 binary
+*.webm binary
+
+# Audio
+*.aac binary
+*.aiff binary
+*.alac binary
+*.flac binary
+*.m4a binary
+*.mp3 binary
+*.ogg binary
+*.opus binary
+*.wav binary
