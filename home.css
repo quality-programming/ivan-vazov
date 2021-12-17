@@ -5,58 +5,56 @@
 
 body {
   font-family: sans-serif;
-  background-image: url('img/bg.jpg');
+  background-image: url("img/bg.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
 
 .container {
-  width: 1000px;
+  width: 1200px;
   margin: 0 auto;
   position: relative;
 }
 
-.header-1 {
+.bg-color {
   background: #fffee0;
   width: 85%;
   padding: 40px;
   margin: 100px auto;
 }
 
-.img-letter {
+/* .img-letter {
   top: 50px;
   left: 90px;
   position: absolute;
-}
+} */
 
 h1 {
   font-size: 30px;
   font-weight: bold;
   color: #946f3b;
   text-align: center;
-  margin: 30px;
 }
 
 h3 {
-  font-size: 22px;
+  font-size: 32px;
   color: #444;
   text-align: center;
+  margin-bottom: 30px;
 }
 
-.img-books {
+/* .img-books {
   margin-top: 80px;
   margin-left: 280px;
-}
+} */
 
 .authors {
-  bottom: 200px;
-  left: 100px;
-  position: absolute;
+  margin-left: 70px;
   list-style-type: none;
 }
 
 li {
-  font-size: 20px;
+  font-size: 23px;
   margin: 10px;
 }
 
@@ -78,4 +76,18 @@ a:hover {
 a:active {
   background-color: black;
   font-style: italic;
+}
+
+/* FLEXBOX */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 200px;
+  margin-bottom: 60px;
+}
+
+.list-and-img-container {
+  display: flex;
+  gap: 80px;
+  align-items: center;
 }
